@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/davinceey/fmProj4]
+- Live Site URL: [https://davinceey.github.io/fmProj4/]
 
 ### Built with
 
@@ -46,6 +46,7 @@ Wow! Learnt a lot from this section, especially in the use of the pseudo element
 ### Useful resources
 
 - [MDN Web Docs](https://developer.mozilla.org) - This helped me in understanding transforms. I really liked this pattern and will use it going forward.
+
 ## Author
 
 - Frontend Mentor - [@davinceey](https://www.frontendmentor.io/profile/davinceey)
