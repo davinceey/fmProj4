@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 360px;
+  height: 590px;
+  border-radius: 20px;
+  background: linear-gradient(hsl(216, 50%, 16%) 55%, hsl(215, 53%, 27%));
+  transition: all 0.3s;
+}
+main:hover{
+    transform: scale(1.04);
+}
+.top-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19em;
+  margin: 1.5em 2em 0.5em 1.75em;
+  border-radius: 20px;
+}
+.top-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: hsl(178, 100%, 50%);
+  width: 19em;
+  height: 19em;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transform: scale(0);
+  transition: all .5s;
+}
+.top-img:hover::after{
+    content: url("./images/icon-view.svg");
+    transform: scale(1);
+}
+.equil {
+  width: 19em;
+  border-radius: 20px;
+}
+
+.eth {
+  width: 0.7em;
+  margin-left: 1.7em;
+  padding-right: 5px;
+  margin-bottom: 0;
+}
+.clock {
+  width: 1.2em; 
+}
+.avatar {
+  width: 2.3em;
+  display: block;
+  margin-top: 0.4em;
+  margin-left: 1.4em;
+  margin-right: 0.6em;
+  float: left;
+  border-color: white;
+  border-width: 1em;
+}
+h1 {
+  width: 10em;
+  font-size: 1.5em;
+  margin-left: 1.18em;
+  transition: all 0.3s;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+p {
+  font-size: 18px;
+  margin-left: 1.49em;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+span {
+  font-size: 18px;
+}
+.first-span {
+  margin-right: 4.75em;
+  margin-top: 0;
+  padding-left: 0;
+  font-weight: 600;
+  margin-bottom: 3em;
+  color: hsl(178, 100%, 50%);
+  position: relative;
+  bottom: 2px;
+}
+
+.second-span {
+  margin-top: 0;
+  padding-top: 0;
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  bottom: 2.5px;
+}
+
+hr {
+  width: 85%;
+  margin-top: 1.2em;
+  border-color: hsl(215, 32%, 27%);
+}
+.footer {
+  margin-top: 1.2em;
+}
+.footer-sub {
+  color: white;
+  transition: all 0.3s;
+}
+.footer-sub:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+@media (max-width: 1830px) {
+  body {
+    height: 100vh;
+  }
+  main {
+    width: 360px;
+    height: 590px;
+  }
+}
